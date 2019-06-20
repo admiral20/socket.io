@@ -1,0 +1,23 @@
+{
+  "name": "socket.io-chat",
+  "version": "1.0.0",
+  "description": "chat",
+  "main": "\u001b",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "chat",
+    "socket.io"
+  ],
+  "author": "zhuzhenjiang",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^2.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
