@@ -10,6 +10,7 @@ app.get('/', (req, res)=> {
 
 let connnectedUser = [];
 
+// connection 事件  （成功建立）
 io.on("connection", socket => {
     console.log('a user connection')
     updateUserName();
@@ -38,6 +39,7 @@ io.on("connection", socket => {
         })
     })
     
+    // 断开链接
     socket.on("disconnect", () => {
         console.log('a user disconnect')
         connnectedUser.splice(connnectedUser.indexOf(userName), 1);
