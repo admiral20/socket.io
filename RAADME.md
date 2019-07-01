@@ -46,3 +46,4 @@ socket.on('nohello', data => {
 部署：
 
 1. 使用 heroku 自动打包部署
+heroku create
